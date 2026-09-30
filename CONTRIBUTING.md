@@ -1,6 +1,13 @@
 # Contributing
 
-Each directory under `tasks/` is an exact snapshot of a current Oddish task version. Please make benchmark changes in the source task first, publish a new version to Oddish, then run `scripts/sync_tasks.py` to update this repository. That keeps the version and source hash in `tasks/manifest.json` meaningful.
+Task folders are imported from Oddish. Make task changes at the source, then refresh this repository:
+
+```sh
+uv sync
+ODDISH_API_KEY=... uv run python scripts/sync_tasks.py
+```
+
+The importer checks the files during transfer and records their hashes in `tasks/manifest.json`.
 
 Before opening a pull request, run:
 
