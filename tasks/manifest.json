@@ -4,7 +4,7 @@
   "synced_at": "2026-09-30T02:37:25.929323+00:00",
   "task_count": 20,
   "file_count": 1548,
-  "total_bytes": 12909998,
+  "total_bytes": 12910209,
   "tasks": [
     {
       "task_id": "000--frappe--07-deletes-and-jobs-fail-194d9279",
@@ -2762,7 +2762,7 @@
       "version": 17,
       "source_hash": "4e7c1c105ff33c164782ee2c5b8b25dd55bbfa6b75302e171557281f16831f41",
       "file_count": 62,
-      "total_bytes": 564241,
+      "total_bytes": 564452,
       "files": [
         {
           "path": "environment/.dockerignore",
@@ -2846,8 +2846,8 @@
         },
         {
           "path": "environment/chart/ground-truth.yaml",
-          "bytes": 12541,
-          "sha256": "33fc72c90db247c946668610316c91666ea4d767d858a7125d2d6658a4d369bc"
+          "bytes": 12752,
+          "sha256": "217af116d1fd87ad35881635f906c7882af87eee7b31f994d26571114cac14a2"
         },
         {
           "path": "environment/chart/templates/_agent-egress-envoy.tpl",

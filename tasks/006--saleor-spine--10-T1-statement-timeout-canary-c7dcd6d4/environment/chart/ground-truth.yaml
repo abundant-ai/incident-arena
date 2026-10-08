@@ -44,7 +44,10 @@ minimality:
 
 thresholds:
   provisional: true
-  p99_ms_by_phase: {peak: 3465, trough: 1366}
+  # trough raised from 1366 (limit 1639 ms with the 20% tolerance) to 1750 (2100 ms):
+  # 3 of 10 fresh k8s Oracle runs (m7i.2xlarge, k3s) missed 1639 ms at trough,
+  # worst normal run 1940 ms. Peak unchanged.
+  p99_ms_by_phase: {peak: 3465, trough: 1750}
   error_rate_max: 0.1
   goodput_min_ratio: 0.8
   by_driver:
