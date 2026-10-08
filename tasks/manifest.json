@@ -4,7 +4,7 @@
   "synced_at": "2026-09-30T02:37:25.929323+00:00",
   "task_count": 20,
   "file_count": 1548,
-  "total_bytes": 12909998,
+  "total_bytes": 12910262,
   "tasks": [
     {
       "task_id": "000--frappe--07-deletes-and-jobs-fail-194d9279",
@@ -1662,7 +1662,7 @@
       "version": 23,
       "source_hash": "a22dffce0eaac51f96a2d7299f2d37ed98cc40c3a4ee24f2a70992b0067dfdc0",
       "file_count": 108,
-      "total_bytes": 765419,
+      "total_bytes": 765683,
       "files": [
         {
           "path": "environment/.dockerignore",
@@ -2056,8 +2056,8 @@
         },
         {
           "path": "environment/task.values.yaml",
-          "bytes": 3151,
-          "sha256": "32d4fc7bd81e77c107a69feddcb5556010375efc09080f0cf2bffe25098c0f2a"
+          "bytes": 3415,
+          "sha256": "364174a28ef2792e059251f9db0b1b20c51bfe8928bfdb7e8c6ebf46bd74ea51"
         },
         {
           "path": "instruction.md",

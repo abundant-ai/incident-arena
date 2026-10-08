@@ -6,6 +6,11 @@ loadgen:
   enabled: true
 erpnext:
   redis-queue:
+    # Redis 7.2+: ACL GETUSER keeps the targeted +blmove/+blpop/+brpop grants
+    # that the redis_state verifier expects; 7.0 folds them into +@all.
+    image:
+      tag: '7.2'
+      digest: sha256:7bb474599fb0af96c8c0aeddc20f824293d9090c4e511a2dded0bb84ee5260f7
     master:
       extraFlags:
       - --maxmemory
